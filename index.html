@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Emoji Rating System</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Rate Your Experience</h1>
+        <div class="emoji-rating">
+            <input type="radio" id="emoji1" name="rating" value="1">
+            <label for="emoji1" class="emoji">😡</label>
+
+            <input type="radio" id="emoji2" name="rating" value="2">
+            <label for="emoji2" class="emoji">😞</label>
+
+            <input type="radio" id="emoji3" name="rating" value="3">
+            <label for="emoji3" class="emoji">😐</label>
+
+            <input type="radio" id="emoji4" name="rating" value="4">
+            <label for="emoji4" class="emoji">😊</label>
+
+            <input type="radio" id="emoji5" name="rating" value="5">
+            <label for="emoji5" class="emoji">😍</label>
+        </div>
+        <div id="result" class="result"></div>
+    </div>
+    <script src="main.js"></script>
+</body>
+</html>
